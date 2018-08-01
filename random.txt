@@ -1,0 +1,16 @@
+random.randdom()
+#随机浮点数
+random.randint()
+#一个范围生成随机整数
+random.randrange()
+#类似range，可以设置步长
+random.uniform()
+#随机浮点数
+
+****************************
+random.sample('abcdefg',3)
+#多个字符选特定,['a','b','d']
+random.shuffle(items)
+#洗牌，打乱顺序
+random.choice()
+#随机选

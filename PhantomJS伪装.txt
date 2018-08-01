@@ -1,0 +1,9 @@
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+ 
+
+dcap = dict(DesiredCapabilities.PHANTOMJS)
+dcap["phantomjs.page.settings.userAgent"] = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36") #设置user-agent请求头
+dcap["phantomjs.page.settings.loadImages"] = False #禁止加载图片
+ 
+driver = webdriver.PhantomJS(desired_capabilities=dcap)
+driver.set_page_load_timeout(40) #设置页面最长加载时间为40s

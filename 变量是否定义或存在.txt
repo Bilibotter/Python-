@@ -1,0 +1,3 @@
+'testvar'   in   locals().keys()
+'testvar'   in   dir()
+vars().has_key('testvar')

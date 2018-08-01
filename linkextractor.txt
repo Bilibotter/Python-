@@ -1,0 +1,17 @@
+详见:https://www.jianshu.com/p/3346983e3419
+class LxmlLinkExtractor(FilteringLinkExtractor):
+
+    def __init__(self, allow=(), deny=(), allow_domains=(), deny_domains=(), restrict_xpaths=(),
+ tags=('a', 'area'), attrs=('href',), canonicalize=True,
+ unique=True, process_value=None, deny_extensions=None, restrict_css=(),
+ strip=True):
+
+**********************************
+
+restrict_xpaths:指定元素而不是属性，比如应该指定<a.../a>而不是<a href=.../a>
+
+**********************************
+
+process_value:用来加工提取的url(URL！URL！URL！),参数为函数名
+
+**********************************

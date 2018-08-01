@@ -1,0 +1,3 @@
+r=requests.get(link, headers=headers,timeout=10).text
+r = r.replace('jsonp_tbcrate_reviews_list(','')
+r = r[:-2]

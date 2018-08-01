@@ -1,0 +1,8 @@
+from urllib import urlencode
+
+params = { 
+    "action": "search",
+    "description": "My search here",
+    "e_author": ""
+}
+url = "https://yoursite.com/search/?" + urlencode(params)

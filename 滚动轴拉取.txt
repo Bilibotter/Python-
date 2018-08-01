@@ -1,0 +1,2 @@
+driver.execute_script('var q=document.documentElement.scrollTop=10000')
+#scrollTop=100000Îªµ×¶Ë£¬scrollTop=0Îª¶¥²¿

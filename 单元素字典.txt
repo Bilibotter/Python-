@@ -1,0 +1,13 @@
+方法一
+d = {'name':'haohao'}
+(key, value), = d.items()
+
+方法二
+d = {'name':'haohao'}
+key = list(d)[0]
+value = list(d.values())[0]
+
+方法三
+d = {'name':'haohao'}
+key, = d
+value, = d.values()

@@ -1,0 +1,3 @@
+from scrapy.contrib.linkextractors import LinkExtractor
+link = LinkExtractor(allow=(), deny=(), )
+links = link.extract_links(待提取的html及response)
