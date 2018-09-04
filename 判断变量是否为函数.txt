@@ -1,0 +1,4 @@
+add = lambda a, b: a + b
+#   判断成功
+if(hasattr(add, '__call__')):
+        print add(1,2)
