@@ -1,0 +1,3 @@
+# total为总任务数
+precent = lambda x: '\r{:.2%}'.format(x/total)
+print(precent(now), end='')
