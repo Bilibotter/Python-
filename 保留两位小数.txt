@@ -1,0 +1,3 @@
+# 保留两位小数
+字符：precent = float('{%.2f}'%num)
+数字：round(num, 2)
