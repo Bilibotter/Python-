@@ -1,0 +1,1 @@
+rank = dict(zip(data['Team'], data['Rk']))
